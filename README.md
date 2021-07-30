@@ -1,4 +1,4 @@
-1. `git clone https://github.com/MerlinRdev/mtk-toolchains`
+1. `git clone https://github.com/SWRT-dev/mtk-toolchains`
 
 2. `cd mtk-toolchains`
 
