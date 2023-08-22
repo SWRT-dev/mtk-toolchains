@@ -51,7 +51,7 @@
 /* We have included libc headers... */
 
 /* Coordinate with libc net/if.h header. */
-#if defined(_NET_IF_H) && defined(__USE_MISC)
+#if (defined(_NET_IF_H) && defined(__USE_MISC)) || defined(_GNU_SOURCE)
 
 /* LIBC headers included first so don't define anything
  * that would already be defined. */
